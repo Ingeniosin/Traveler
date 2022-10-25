@@ -1,5 +1,12 @@
-﻿namespace Traveler.Models; 
+﻿using DynamicApi.EntityFramework;
+using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDbContext {
+namespace Traveler.Models; 
+
+public class ApplicationDbContext : DynamicContext{
+
+    public ApplicationDbContext(DbContextOptions options) : base(options) {
+    }
+    
     
 }
