@@ -10,7 +10,7 @@ public class TipoDocumentoIdentidad {
     public bool EsCedulaExtranjeria { get; set; }
     public bool EsPasaporte { get; set; }
 
-    public List<TipoDocumentoIdentidad> DefaultValues(ApplicationDbContext db) {
+    public static List<TipoDocumentoIdentidad> DefaultValues(ApplicationDbContext db) {
         return new List<TipoDocumentoIdentidad>{
             new(){ Nombre = "Registro Civil", EsRegistroCivil = true },
             new(){ Nombre = "Tarjeta de Identidad", EsTarjetaIdentidad = true },

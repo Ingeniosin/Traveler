@@ -1,25 +1,26 @@
+using DynamicApi;
+using Traveler.Models;
+using Traveler.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if(!app.Environment.IsDevelopment()) {
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
-
-
-app.MapControllerRoute(name: "default", pattern: "{controller}/{action=Index}/{id?}");
-
-app.MapFallbackToFile("index.html");
-;
-
-app.Run();
+new DynamicApi<ApplicationDbContext>(routeBuilder => routeBuilder
+        .addNonService(x => x.DatosPersonales)
+        .addNonService(x => x.Ubicaciones)
+        .addNonService(x => x.Roles)
+        .addNonService(x => x.Usuarios)
+        .addNonService(x => x.Generos)
+        .addNonService(x => x.MediosTransporte)
+        .addNonService(x => x.MotivosViaje)
+        .addNonService(x => x.TiposDocumentoIdentidad)
+        .addNonService(x => x.TiposOrganizacion)
+        .addNonService(x => x.Turistas)
+        .addNonService(x => x.TuristasEquipamiento)
+        .addNonService(x => x.TuristasMediosTransporteCiudad)
+        .addNonService(x => x.TuristasMediosTransporteLlegada)
+        .addNonService(x => x.Organizaciones)
+        .addNonService(x => x.TiposTelefono)
+        .addNonService(x => x.TuristasCorreos)
+        .addNonService(x => x.TuristasTelefonos)
+        .addAction<GetChartOfInput, GetChartOf>("GetChartOf", true)
+, builder).Start();

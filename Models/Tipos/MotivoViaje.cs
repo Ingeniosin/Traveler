@@ -8,7 +8,7 @@ public class MotivoViaje {
     public bool EsTurismo { get; set; }
     public bool EsOtro { get; set; }
 
-    public List<MotivoViaje> DefaultValues(ApplicationDbContext db) {
+    public static List<MotivoViaje> DefaultValues(ApplicationDbContext db) {
         return new List<MotivoViaje>{
             new(){Nombre = "Trabajo", EsTrabajo = true},
             new(){Nombre = "Estudio", EsEstudio = true},

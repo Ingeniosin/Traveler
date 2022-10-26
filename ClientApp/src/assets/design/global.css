@@ -1,0 +1,59 @@
+html {
+    font-family: Roboto, serif;
+}
+
+.bg {
+    background-color: #F0F5F5;
+}
+
+.menu {
+    width: 240px !important;
+}
+
+.content {
+    box-shadow: inset 200px -38px 27px -200px rgba(0,0,0,0.07);
+}
+
+hr {
+    border: 0 !important;
+    border-top: 1px solid rgba(0, 0, 0, 1) !important;
+    margin: 1rem !important;
+}
+
+.menu-logo {
+    width: 60px;
+}
+
+.faq {
+    font-size: 0.6rem;
+    width: 100px;
+}
+
+.dx-drawer-panel-content {
+    background-color: white;
+}
+
+/*.dx-treeview-node {
+    padding-left: 0 !important;
+}*/
+
+.menuItemContainer {
+     max-height: 600px;
+}
+
+.headerDetails {
+    font-size: 0.72rem;
+}
+
+.dx-field-item {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.dx-form-group-caption {
+    font-weight: 500;
+}
+
+.dx-datagrid-edit-popup-form {
+    padding: 30px 120px !important;
+}

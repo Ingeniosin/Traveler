@@ -8,48 +8,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b25c81-d478-4bcd-b90c-1ad75b7f43a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/ClientApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/aspnetcore-https.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/aspnetcore-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Tipos/MotivoViaje.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Tipos/TipoDocumentoIdentidad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Turista.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Traveler.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Traveler.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/dx.material.custom-scheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/fonts/Roboto-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/icons/dxiconsmaterial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/icons/dxiconsmaterial.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/design/icons/dxiconsmaterial.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/logo_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/operador.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/operadores/OperadorItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/operadores/Operadores.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/operadores/form/FormOperador.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/turistas/Turistas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/pages/turistas/TuristasGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/ui/navigation/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/ui/navigation/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/components/ui/navigation/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/configuration/Configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/api/api-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/CustomColumn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/CustomDataGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/CustomForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/CustomMasterDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/CustomSelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/GridColumns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/LoadingSpinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/StoredForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/dynamic/devextreme/useDefaultDataGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/hooks/useFetchOperador.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/hooks/useFetchOperadorAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/hooks/useFetchOperadorsIds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/routers/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026072937_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026072937_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026111931_sync.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026111931_sync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026113839_sync1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20221026113839_sync1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Datos/DatosPersonales.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Organizacion/Organizacion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Organizacion/Rol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Organizacion/Usuario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Tipos/Genero.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Tipos/MedioTransporte.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Tipos/TipoOrganizacion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Tipos/TipoTelefono.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/Contacto/TuristaCorreo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/Contacto/TuristaTelefono.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/Contacto/TuristaUbicacion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/MedioTransporte/TuristaMedioTransporte.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/MedioTransporte/TuristaMedioTransporteCiudad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/MedioTransporte/TuristaMedioTransporteLlegada.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Turista/TuristaEquipamiento.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/GetChartOf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Traveler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.idea/ClientApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/.idea/ClientApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Tipos/MotivoViaje.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Tipos/MotivoViaje.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Tipos/TipoDocumentoIdentidad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Tipos/TipoDocumentoIdentidad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Turista.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Turista/Turista.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Models/Turista/MedioTransporte/TuristaMedioTransporte.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,6 +121,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.50076336&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -152,6 +205,8 @@
       <workItem from="1666539323010" duration="5280000" />
       <workItem from="1666653877601" duration="1399000" />
       <workItem from="1666702238826" duration="2299000" />
+      <workItem from="1666753849961" duration="19962000" />
+      <workItem from="1666821989236" duration="1281000" />
     </task>
     <servers />
   </component>
